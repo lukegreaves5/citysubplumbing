@@ -1008,8 +1008,8 @@ header .header-social ul li a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  background: -webkit-gradient(linear, left top, right top, from(#ce0000a2), to(#e41414));
-  background: linear-gradient(to right, #ce0000a2, #e41414);
+  background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#e6e6e6));
+  background: linear-gradient(to right, #e6e6e6, #e6e6e6);
   content: '';
   z-index: -2;
   width: 100%;
@@ -1027,7 +1027,7 @@ header .header-social ul li a:hover {
 }
 
 .banner-area.banner-two::after {
-  background-image: url("../../sample.png");
+  /* background-image: ; */
   background-size: cover;
   background-position: 20%;
   background-repeat: no-repeat;
@@ -1572,8 +1572,7 @@ header .header-social ul li a:hover {
 
 .services-area.services-area-two {
   padding-top: 130px;
-  background-color: #eff2f7;
-  background-image: url(../images/service-bg.jpg);
+  background-color: #fff;
   background-position: center;
   background-size: cover;
 }
@@ -2978,6 +2977,10 @@ header .header-social ul li a:hover {
 .feature-list-area .feature-list-wrap .feature-list li h4 {
   color: #e41414;
   margin-bottom: 20px;
+}
+
+.cursor {
+  cursor: pointer;
 }
 
 /*===========================

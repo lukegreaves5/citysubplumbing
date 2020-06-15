@@ -99,7 +99,7 @@
 			position: absolute;
 			left: 0;
 			top: 0;
-			background: linear-gradient(to right, #ce0000a2, $heading-color);
+			background: linear-gradient(to right, rgb(230, 230, 230), rgb(230, 230, 230));
 			content: '';
 			z-index: -2;
 			width: 100%;
@@ -112,7 +112,7 @@
 			}
 		}
 		&::after {
-			background-image: url("../../sample.png");
+			/* background-image: ; */
 			background-size: cover;
 			background-position: 20%;
 			background-repeat: no-repeat;
