@@ -10,7 +10,7 @@
 	<!--====== Title ======-->
 	<title>City & Suburban Plumbing & Heating</title>
 	<!--====== Favicon Icon ======-->
-	<link rel="icon" href="logo-sample.png"/>
+	<link rel="icon" href="./logos/citysub_ph_logo_icon.svg"/>
 	<!--====== Bootstrap css ======-->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 	<!--====== Fontawesome css ======-->
@@ -28,6 +28,17 @@
 	<link rel="stylesheet" href="assets/css/default.css" />
 	<!--====== Style css ======-->
 	<link rel="stylesheet" href="assets/scss/style.css" />
+
+	<script>
+		(function(d) {
+		  var config = {
+			kitId: 'lgd5kls',
+			scriptTimeout: 3000,
+			async: true
+		  },
+		  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+	</script>
 </head>
 
 <body>
@@ -35,13 +46,14 @@
 	<header class="header-area header-absolute">
 		
 		<div class="header-nav">
-			<div class="container">
+			<div class="container container-header-nav">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="navigation">
 							<nav class="navbar navbar-expand-lg navbar-light ">
-								<a class="navbar-brand" href="index.html" ><img width="150px" height="auto" src="logo-sample.svg"
-										alt="Dream Team Plumbing" /></a>
+								<a class="navbar-brand" href="index.html">
+									<img width="170px" height="auto" src="./logos/citysub_ph_logo_vertical.svg" alt="City & Suburban Plumbing" />
+								</a>
 
 								<!-- logo -->
 								<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -59,70 +71,19 @@
 											<a class="nav-link" href="index.html">Home
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="service-1.html">Services
-												<i class="fal fa-angle-down"></i></a>
-											<ul class="sub-menu">
-												<li>
-													<a href="service-1.html">Services One</a>
-												</li>
-												<li>
-													<a href="service-2.html">Services Two</a>
-												</li>
-												<li>
-													<a href="single-service.html">Services Details</a>
-												</li>
-											</ul>
+											<a class="nav-link" href="services.html">All Services</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="blog.html">Residential
-												<i class="fal fa-angle-down"></i></a>
-											<ul class="sub-menu">
-												<li>
-													<a href="single-blog.html">News Details</a>
-												</li>
-											</ul>
+											<a class="nav-link" href="residential.html">Residential</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="contact.html">Commerical</a>
+											<a class="nav-link" href="commercial.html">Commerical</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="project.html">About
-												<i class="fal fa-angle-down"></i></a>
-											<ul class="sub-menu">
-												<li>
-													<a href="project-1.html">Project One</a>
-												</li>
-												<li>
-													<a href="project-2.html">Project Two</a>
-												</li>
-												<li>
-													<a href="single-project.html">Projmect Details</a>
-												</li>
-											</ul>
+											<a class="nav-link" href="about.html">About</a>
 										</li>
 										<li class="nav-item">
-											<a class="nav-link" href="about.html">Contact
-												<i class="fal fa-angle-down"></i></a>
-											<ul class="sub-menu">
-												<li>
-													<a href="about.html">About Us</a>
-												</li>
-												<li>
-													<a href="team.html">Team</a>
-												</li>
-												<li>
-													<a href="faq.html">FAQ</a>
-												</li>
-												<li>
-													<a href="pricing.html">Pricing</a>
-												</li>
-												<li>
-													<a href="shop.html">Shop</a>
-												</li>
-												<li>
-													<a href="single-product.html">Product Details</a>
-												</li>
-											</ul>
+											<a class="nav-link" href="contact.html">Contact</a>
 										</li>
 									</ul>
 								</div>
@@ -133,12 +94,14 @@
 											<li>
 												<a href="#"><i class="fab fa-facebook-f"></i></a>
 											</li>
+											<!--
 											<li>
 												<a href="#"><i class="fab fa-twitter"></i></a>
 											</li>
 											<li>
 												<a href="#"><i class="fab fa-instagram"></i></a>
 											</li>
+											-->
 											<li>
 												<a href="#"><i class="fab fa-google"></i></a>
 											</li>
@@ -160,12 +123,16 @@
 							<div class="header-info">
 								<ul>
 									<li>
-										<span>contact@leakplumbingheating.com</span>
-										<i class="flaticon-e-mail-envelope"></i>
+										<a href="mailto:contact@cityandsuburanbph.com">
+											<span>contact@cityandsuburanbph.com</span>
+											<i class="fa fa-envelope"></i>
+										</a>
 									</li>
 									<li>
-										<span>(845) 490-2306</span>
-										<i class="flaticon-phone-call"></i>
+										<a href="tel:9146637777">
+											<span>914-663-7777</span>
+											<i class="fa fa-phone"></i>
+										</a>
 									</li>
 								</ul>
 							</div>
@@ -175,50 +142,26 @@
 			</div>
 		</div>
 	</header>
-	<script>
-			let data = [{'First Name':'Scott','Last Name':'Schneider','Title':'Creative Director','Company':'Cossette','Email':'scott.schneider@cossette.com','Phone':'(418) 647-2727','Linkedin':'https://www.linkedin.com/in/scott-schneider-9216a233','Status':'Final Attendee','Category':'Panelist'},{'First Name':'Naomi','Last Name':'Liu','Title':'Director, Global Marketing Operations','Company':'Electronics for Imaging','Email':'naomi.liu@efi.com','Phone':'(604) 614-8923','Linkedin':'https://www.linkedin.com/in/naomiliu','Status':'Final Attendee','Category':'Panelist'},{'First Name':'Dan','Last Name':'DeBeyer','Title':'Director, Digital Strategy','Company':'First Nations Health Authority','Email':'dan.debeyer@fnha.ca','Phone':'(604) 693-6500','Linkedin':'https://www.linkedin.com/in/dandebeyer','Status':'Final Attendee','Category':'Panelist'},{'First Name':'Crystal','Last Name':'Stus','Title':'Director of Marketing','Company':'Marcon','Email':'cstus@marcon.ca','Phone':'(236) 330-1491','Linkedin':'-','Status':'Final Attendee','Category':'Panelist'},{'First Name':'Robert','Last Name':'Mackay','Title':'Senior Director, Marketing Western Canada','Company':'MNP','Email':'robert.mackay@mnp.ca','Phone':'(403) 444-0150 x3672','Linkedin':'https://www.linkedin.com/in/robert-mackay-a183321','Status':'Final Attendee','Category':'Panelist'},{'First Name':'Chelsea','Last Name':'MacKay','Title':'Head of Global & Strategic References','Company':'Amazon.com','Email':'chelmac@amazon.com','Phone':'206.556.9274','Linkedin':'https://www.linkedin.com/in/chelsea-mackay-7a362745/','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Katie','Last Name':'Ainsworth','Title':'Executive Creative Director','Company':'Cossette','Email':'katie.ainsworth@cossette.com','Phone':'(418) 647-2727','Linkedin':'https://www.linkedin.com/in/katie-ainsworth-82161616','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Erin','Last Name':'Pongracz','Title':'Group Account Director','Company':'Cossette','Email':'Erin.Pongracz@cossette.com','Phone':'-','Linkedin':'https://www.linkedin.com/in/erinpongracz/','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Miki','Last Name':'Usyak','Title':'VP, B2B Integrated Marketing','Company':'Edelman','Email':'miki.usyak@edelman.com','Phone':'(312) 240-3000','Linkedin':'https://www.linkedin.com/in/mikicarlton/','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Aaron','Last Name':'Bradley','Title':'Knowledge Graph Strategist, EA Content Graph','Company':'Electronic Arts','Email':'abradley@ea.com','Phone':'(604) 456-4811','Linkedin':'https://au.linkedin.com/in/aaranged','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Lisa','Last Name':'Craveiro','Title':'Director, Marketing','Company':'INDOCHINO','Email':'lisa.craveiro@indochino.com','Phone':'(855) 334-0788','Linkedin':'https://www.linkedin.com/in/lisacraveiro','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Sylvia','Last Name':'Tuason','Title':'Digital Strategy & Production Manager','Company':'Langara College','Email':'stuason@langara.ca','Phone':'(604) 323-5511','Linkedin':'https://www.linkedin.com/in/sylviatuason/?originalSubdomain=ca','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Jeff','Last Name':'Kew','Title':'Director, Global Marketing Operations','Company':'Magnitude','Email':'jkew@magnitude.com','Phone':'(866) 466-3849','Linkedin':'https://www.linkedin.com/in/jeffkew/','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Liam','Last Name':'Cannon','Title':'Head of Digital Marketing','Company':'MediaValet','Email':'liam.cannon@mediavalet.com','Phone':'604-688-2321','Linkedin':'https://ca.linkedin.com/in/liam-cannon','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Axel','Last Name':'Kirstetter','Title':'VP Product Marketing, Content Marketing, Pricing','Company':'Merrill','Email':'Axel.Kirstetter@datasite.com','Phone':'301 3251093','Linkedin':'https://www.linkedin.com/in/axlki','Status':'Final Attendee','Category':'Registrant'},{'First Name':'David','Last Name':'No','Title':'Marketing Director','Company':'Pactera Edge','Email':'david\_no@pacteraedge.com','Phone':'(425) 233-8578','Linkedin':'https://www.linkedin.com/in/david-no-marketing-manager/','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Tony','Last Name':'Giannotti','Title':'Digital Media Specialist','Company':'PeopleReady','Email':'agiannotti@PeopleReady.com','Phone':' (253) 383-9101','Linkedin':'-','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Nav','Last Name':'Sidhu','Title':'Manager, Marketing, Residential','Company':'Quadreal','Email':'nav.sidhu@quadreal.com','Phone':'778-554-2356','Linkedin':'https://ca.linkedin.com/in/sidhunav','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Mark','Last Name':'Barber','Title':'Product Manager','Company':'Traction Guest','Email':'mbarber@tractionguest.com','Phone':'604.616.1135','Linkedin':'https://ca.linkedin.com/in/mgbarber','Status':'Final Attendee','Category':'Registrant'},{'First Name':'David','Last Name':'Kimball','Title':'Sr. Digital Marketing Specialist','Company':'TrueBlue','Email':'dkimball@trueblue.com','Phone':'(800) 610-8920','Linkedin':'https://www.linkedin.com/in/davidvkimball','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Una','Last Name':'De Boer','Title':'Director, Global Marketing & Strategy','Company':'WhiteWater West Industries','Email':'una.deboer@whitewaterwest.com','Phone':'(604) 362-4377','Linkedin':'https://www.linkedin.com/in/unadeboer','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Janice','Last Name':'Twiss','Title':'Manager, Experience and Marketing','Company':'WorkSafeBC','Email':'Janice.Twiss@worksafebc.com','Phone':'778.991.9301','Linkedin':'https://www.linkedin.com/in/janicetwiss/','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Nancy','Last Name':'Berke','Title':'Artistic Coordinator, Experience, Marketing and Insights','Company':'WorkSafeBC','Email':'Nancy.Berke@worksafebc.com','Phone':'604.276.3257','Linkedin':'https://www.linkedin.com/in/nancy-berke-83931245/','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Shweta','Last Name':'Adodra','Title':'Digital Marketer','Company':'WorkSafeBC','Email':'shweta.adodra@worksafebc.com','Phone':'(604) 244-6181','Linkedin':'https://www.linkedin.com/in/shwetaadodra/','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Carolyn','Last Name':'Trotter','Title':'Advisor, Experience, Marketing and Insights','Company':'WorkSafeBC','Email':'Carolyn.Trotter@worksafebc.com','Phone':'604.231.8352','Linkedin':'https://ca.linkedin.com/in/carolyntrotter','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Dalia','Last Name':'Ibrahim','Title':'Artistic coordinator, Experience, Marketing and Insights','Company':'WorkSafeBC','Email':'Dalia.Ibrahim@worksafebc.com','Phone':'604.279.7501','Linkedin':'https://ca.linkedin.com/in/daliaibrahim','Status':'Final Attendee','Category':'Registrant'},{'First Name':'Felicity','Last Name':'Lawong','Title':'Experience and Marketing Production Coordinator ','Company':'WorkSafeBC','Email':'Felicity.Lawong@worksafebc.com','Phone':'604.315.6667','Linkedin':'-','Status':'Final Attendee','Category':'Registrant'}];
-			console.log(data);
-
-
-	</script>
 	<!--====== HEADER PART END ======-->
 	<!--====== BANNER PART START ======-->
 	<section class="banner-area banner-two mt-0 bg_cover d-flex">
-		<div class="container" style="margin-top:200px">
+		<div class="container" style="margin-top:150px">
 			<div class="row align-items-end">
-				<div class="col-lg-6 col-md-6" style="justify-content: flex-end;">
+				
+				<div class="col-lg-12 col-md-12 home-page-content">
 					<div class="banner-content">
 						<h1 class="title">
-							Commercial.
-							Residential.
-							Professional.
+							<span class="homepage-title-residential">Residential.</span>
+
+							<span class="homepage-title-commercial">Commercial.</span>
+							<span class="homepage-title-professional">Professional.</span>
 						</h1>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur harum laudantium, ipsa doloribus dolorem, consectetur eum possimus quod vitae impedit ad dolor ratione facilis temporibus iusto aspernatur. Voluptatum, facere? Amet!
-						</p>
-						<ul>
-							<li>
-								<a class="main-btn main-btn-3" href="#">View Services</a>
-							</li>
-							
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="banner-content">
-						<h1 class="title">
-							Commercial.
-							Residential.
-							Professional.
-						</h1>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur harum laudantium, ipsa doloribus dolorem, consectetur eum possimus quod vitae impedit ad dolor ratione facilis temporibus iusto aspernatur. Voluptatum, facere? Amet!
-						</p>
-						<ul>
-							<li>
-								<a class="main-btn main-btn-3" href="#">View Services</a>
-							</li>
-							
+						<div class="banner-text">
+							<p class="phone-label">Call for a job estimate:</p>
+							<p class="banner-phone-number"><a href="tel:">914-663-7777</a></p>
+						</div>
+						<ul class="banner-cta">
+							<a class="" href="/services.html">View All Services</a>
 						</ul>
 					</div>
 				</div>
@@ -236,7 +179,7 @@
 						<h2 class="title">
 							Our Services
 						</h2>
-						<span>View All</span>
+						<span><a href="/services.html">View All</a></span>
 					</div>
 				</div>
 			</div>
@@ -244,111 +187,104 @@
 				<div class="col-lg-3 col-md-6 col-sm-8 cursor">
 					<div class="services-item services-item-2 text-center mt-30">
 						<div class="services-thumb">
-							<i class="flaticon-property"></i>
+							<i class="flaticon-drain"></i>
 							<span class="icon-shape"><img src="assets/images/shape/service-shape.png"
 									alt="shape" /></span>
 						</div>
 						<div class="services-content">
 							<h4 class="title">Drain Cleaning</h4>
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+							<a href="/services.html">Explore Service</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-8 cursor">
 					<div class="services-item services-item-2 text-center mt-30">
 						<div class="services-thumb">
-							<i class="flaticon-kitchen"></i>
+							<i class="flaticon-heat"></i>
 							<span class="icon-shape"><img src="assets/images/shape/service-shape.png"
 									alt="shape" /></span>
 						</div>
 						<div class="services-content">
 							<h4 class="title">Water Heating</h4>
-							
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+							<a href="/services.html">Explore Service</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-8 cursor">
 					<div class="services-item services-item-2 text-center mt-30">
 						<div class="services-thumb">
-							<i class="flaticon-window"></i>
+							<i class="flaticon-pipe-3"></i>
 							<span class="icon-shape"><img src="assets/images/shape/service-shape.png"
 									alt="shape" /></span>
 						</div>
 						<div class="services-content">
 							<h4 class="title">Plumbing Repairs</h4>
-							
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+							<a href="/services.html">Explore Service</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-8 cursor">
 					<div class="services-item services-item-2 text-center mt-30">
 						<div class="services-thumb">
-							<i class="flaticon-restroom"></i>
+							<i class="flaticon-sewer"></i>
 							<span class="icon-shape"><img src="assets/images/shape/service-shape.png"
 									alt="shape" /></span>
 						</div>
 						<div class="services-content">
 							<h4 class="title">Sewer Line Repairs</h4>
-							
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+							<a href="/services.html">Explore Service</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-8 cursor">
 					<div class="services-item services-item-2 text-center mt-30">
 						<div class="services-thumb">
-							<i class="flaticon-desk"></i>
+							<i class="flaticon-plumb-1"></i>
 							<span class="icon-shape"><img src="assets/images/shape/service-shape.png"
 									alt="shape" /></span>
 						</div>
 						<div class="services-content">
 							<h4 class="title">Emergency Plumbing</h4>
-							
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+							<a href="/services.html">Explore Service</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-8 cursor">
 					<div class="services-item services-item-2 text-center mt-30">
 						<div class="services-thumb">
-							<i class="flaticon-furniture-and-household"></i>
+							<i class="flaticon-plunger-1"></i>
 							<span class="icon-shape"><img src="assets/images/shape/service-shape.png"
 									alt="shape" /></span>
 						</div>
 						<div class="services-content">
 							<h4 class="title">Water Removal</h4>
-							
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+							<a href="/services.html">Explore Service</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-8 cursor">
 					<div class="services-item services-item-2 text-center mt-30">
 						<div class="services-thumb">
-							<i class="flaticon-furniture-and-household"></i>
+							<i class="flaticon-plumbing-4"></i>
 							<span class="icon-shape"><img src="assets/images/shape/service-shape.png"
 									alt="shape" /></span>
 						</div>
 						<div class="services-content">
 							<h4 class="title">Appliance Installation</h4>
-							
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+							<a href="/services.html">Explore Service</a>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6 col-sm-8 cursor">
 					<div class="services-item services-item-2 text-center mt-30">
 						<div class="services-thumb">
-							<i class="flaticon-furniture-and-household"></i>
+							<i class="flaticon-plumber-4"></i>
 							<span class="icon-shape"><img src="assets/images/shape/service-shape.png"
 									alt="shape" /></span>
 						</div>
 						<div class="services-content">
 							<h4 class="title">System Maintenance</h4>
-							
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+							<a href="/services.html">Explore Service</a>
 						</div>
 					</div>
 				</div>
@@ -357,59 +293,51 @@
 	</section>
 	<!--====== SERVICE PART ENDS ======-->
 	<!--====== ABOUT PART START ======-->
-	<section class="about-area design-two pt-160 pb-130">
+	<section class="about-area design-two pt-60 pb-100">
 		<div class="container">
 			<div class="row justify-content-lg-between justify-content-center">
-				<div class="col-lg-5 col-md-8">
+				<div class="col-lg-5 col-md-12">
 					<div class="about-img">
-						<img src="assets/images/about-img.jpg" alt="Images" />
+						<img src="assets/images/image2.png" alt="Images" />
 						<img src="assets/images/shape/about-shape.png" alt="shape" class="about-shape" />
 					</div>
 				</div>
-				<div class="col-lg-6 col-md-8">
+				<div class="col-lg-6 col-md-12">
 					<div class="about-content">
-						<span>About Company</span>
+						<span class="sub-section-text">WHY US?</span>
 						<h2 class="title">
-							Commercial & Residential Plumbing & Heating Services
+							Reasons to Choose <span style="color:black;">City & Suburban</span>
 						</h2>
-						<p>
-							Gathering dry make rule likeness heaven a
-							divide. From you will bearing multiply over
-							after forth firmament give unto, a seed moveth
-							male lights is earth yielding creeping him
-							doesn't herb all good above won't was and also
-							Won't Forth made, creepeth, and said fifth
-							greater rule, saw bring also
-						</p>
+						<ul>
+							<li>
+								<span><i class="fa fa-file-certificate"></i></span>
+								<span class="about-item-text">Licensed and Insured</span>
+							</li>
+							<li>
+								<span><i class="fa fa-shield-check"></i></span>
+								<span class="about-item-text">20+ Years of Experience</span>
+							</li>
+							<li>
+								<span><i class="fa fa-star"></i></span>
+								<span class="about-item-text">Local Reputation</span>
+							</li>
+							<li>
+								<span><i class="fa fa-money-check-edit-alt"></i></span>
+								<span class="about-item-text">Competitive Upfront Pricing</span>
+							</li>
+							<li>
+								<span><i class="fa fa-map-marked-alt"></i></span>
+								<span class="about-item-text">Locally Owned and Operated Within the Westchester County and New York City Metropolitan Area</span>
+							</li>
+						</ul>
 					</div>
-					<div class="about-experience">
-						<div class="row align-items-center">
-							<div class="col-lg-5">
-								<div class="about-item">
-									<h3 class="title">
-										<span>25</span> Years <br />
-										Experience
-									</h3>
-								</div>
-							</div>
-							<div class="col-lg-7">
-								<div class="about-item">
-									<p>
-										Bring the drys make rule likeness
-										heaven a divide from you'll bearing
-										multiply image and after fored
-										firmament give unto a seed moveth
-										male lights is earth yielding
-										creeping him does on herb all good
-										above won was and also
-									</p>
-								</div>
-							</div>
-							<div class="col-lg-12">
-								<div class="about-btn mt-45">
-									<a class="main-btn" href="#">Learn More</a>
-								</div>
-							</div>
+				</div>
+			</div>
+			<div class="about-experience">
+				<div class="row align-items-center">
+					<div class="col-lg-12 why-us-button-wrapper">
+						<div class="about-btn why-us-button">
+							<a class="main-btn" href="/about.html">About Us</a>
 						</div>
 					</div>
 				</div>
@@ -417,211 +345,25 @@
 		</div>
 	</section>
 	<!--====== ABOUT PART ENDS ======-->
-	<!--====== FEATURE LIST PART START ======-->
-	<section class="feature-list-area pt-130 pb-130">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-4 col-lg-8 mx-auto">
-					<div class="feature-content">
-						<span>Why Choose Us</span>
-						<h2 class="title">
-							Sample title here
-						</h2>
-						<p>
-							Creeping a herb you every you you let sixth one
-							so our two make lights isn't there fly bearing
-							also midst said was dry in days good god and
-							seed void, set good our so said place that
-							divide there dominion cattle fourth water above
-							fourth appear living.
-						</p>
-						<a href="#" class="main-btn">Read More</a>
-					</div>
+ <!--====== CTA PART START 
+ <section class="cta-section">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-7">
+				<div class="cta-text">
+					<h2>Get a Job Estimate</h2>
+					<p>Give us a call or send an email.</p>
 				</div>
-				<div class="col-xl-8 col-lg-12">
-					<div class="feature-list-wrap">
-						<div class="feature-list-img">
-							<img src="assets/images/feature-img.jpg" alt="Image" />
-						</div>
-						<div class="feature-list">
-							<ul>
-								<li>
-									<i class="flaticon-avatar"></i>
-									<h4>Industry knowledge</h4>
-									<p>
-										Beginning midste the green fowler
-										over in there have could forth
-										doning
-									</p>
-								</li>
-								<li>
-									<i class="flaticon-tag"></i>
-									<h4>Affordable</h4>
-									<p>
-										Beginning midste the green fowler
-										over in there have could forth
-										doning
-									</p>
-								</li>
-								<li>
-									<i class="flaticon-thumb-up"></i>
-									<h4>100% satisfaction</h4>
-									<p>
-										Beginning midste the green fowler
-										over in there have could forth
-										doning
-									</p>
-								</li>
-							</ul>
-						</div>
-					</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="cta-links text-right">
+					<a href="#" class="main-btn main-btn-3">Get An Estimate</a>
 				</div>
 			</div>
 		</div>
-	</section>
-	<!--====== FEATURE LIST PART ENDS ======-->
-
-	<!--====== FAQ PART START ======-->
-	<section class="faq-area">
-		<div class="faq-img">
-			<img src="assets/images/faq.jpg" alt="Image" />
-		</div>
-		<div class="container">
-			<div class="row justify-content-lg-end justify-content-center">
-				<div class="col-lg-7 col-md-10">
-					<div class="faq-wrap">
-						<div class="faq-title">
-							<span>Ask a Question</span>
-							<h2 class="title">
-								Frequently Asked Questions
-							</h2>
-						</div>
-						<div class="faq-accordion accordion" id="faqAccordion">
-							<div class="card">
-								<div class="card-header">
-									<button type="button" data-toggle="collapse" data-target="#faqOne">
-										How do these plans work
-										<span class="open-icon"><i class="fal fa-plus"></i></span>
-										<span class="close-icon"><i class="fal fa-minus"></i></span>
-									</button>
-								</div>
-								<div id="faqOne" class="collapse" data-parent="#faqAccordion">
-									<div class="card-body">
-										Beginning midste the green fowler
-										over in there have could forth
-										doning moving firmament fruitful
-										fruitful thing every appear and
-										pretty called saying dominion Kind
-										two good very own abundantly the
-										female yielding forth.
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div class="card-header">
-									<button type="button" class="active-accordion" data-toggle="collapse"
-										data-target="#faqTwo">
-										How do these plans work
-										<span class="open-icon"><i class="fal fa-plus"></i></span>
-										<span class="close-icon"><i class="fal fa-minus"></i></span>
-									</button>
-								</div>
-								<div id="faqTwo" class="collapse show" data-parent="#faqAccordion">
-									<div class="card-body">
-										Beginning midste the green fowler
-										over in there have could forth
-										doning moving firmament fruitful
-										fruitful thing every appear and
-										pretty called saying dominion Kind
-										two good very own abundantly the
-										female yielding forth.
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div class="card-header">
-									<button type="button" data-toggle="collapse" data-target="#faqThree">
-										How do these plans work
-										<span class="open-icon"><i class="fal fa-plus"></i></span>
-										<span class="close-icon"><i class="fal fa-minus"></i></span>
-									</button>
-								</div>
-								<div id="faqThree" class="collapse" data-parent="#faqAccordion">
-									<div class="card-body">
-										Beginning midste the green fowler
-										over in there have could forth
-										doning moving firmament fruitful
-										fruitful thing every appear and
-										pretty called saying dominion Kind
-										two good very own abundantly the
-										female yielding forth.
-									</div>
-								</div>
-							</div>
-							<div class="card">
-								<div class="card-header">
-									<button type="button" data-toggle="collapse" data-target="#faqFour">
-										How do these plans work
-										<span class="open-icon"><i class="fal fa-plus"></i></span>
-										<span class="close-icon"><i class="fal fa-minus"></i></span>
-									</button>
-								</div>
-								<div id="faqFour" class="collapse" data-parent="#faqAccordion">
-									<div class="card-body">
-										Beginning midste the green fowler
-										over in there have could forth
-										doning moving firmament fruitful
-										fruitful thing every appear and
-										pretty called saying dominion Kind
-										two good very own abundantly the
-										female yielding forth.
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--====== FAQ PART END ======-->
-	<!--====== COUNTER PART START ======-->
-	<section class="counter-area pt-60 bg_cover" style="background-image: url(assets/images/counter-bg-2.jpg);">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-item text-center mt-30">
-						<i class="flaticon-maid"></i>
-						<h3 class="title counter">5840</h3>
-						<span>Metric</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-item text-center mt-30">
-						<i class="flaticon-glass-cleaner"></i>
-						<h3 class="title counter">3140</h3>
-						<span>Metric</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-item text-center mt-30">
-						<i class="flaticon-thumb-up"></i>
-						<h3 class="title counter">2260</h3>
-						<span>Metric</span>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="counter-item text-center mt-30">
-						<i class="flaticon-medal"></i>
-						<h3 class="title counter">2365</h3>
-						<span>Metric</span>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--====== COUNTER PART ENDS ======-->
-
+	</div>
+</section>
+ CTA PART END ======-->
 	<!--====== FEEDBACK PART START ======-->
 	<section class="feedback-area feedback-area-two pb-130 bg_cover"
 		style="background-image: url(assets/images/testimonial-2.jpg);">
@@ -629,10 +371,10 @@
 			<div class="row">
 				<div class="col-lg-7 col-md-8">
 					<div class="section-title section-title-2">
-						<span style="color:black">Some Feedback</span>
-						<h3 style="color:black">
+						<span style="color:black">Testimonials</span>
+						<h2 style="color:#003280">
 							What our customers are saying...
-						</h3>
+						</h2>
 					</div>
 				</div>
 			</div>
@@ -643,19 +385,16 @@
 							<div class="feedback-content">
 								<i class="flaticon-left-quote"></i>
 								<p>
-									Morning make creepeth of stars without
-									heaven doesn. Rule one wing one the
-									great can divided shall dominion seasons
-									you an moveth seasons deep
+									Absolutely recommmend <b style="color:#003280;white-space: nowrap;">City & Suburban</b>. Quick and easy - I called for a broken faucet head and they came and fixed it the same day.
 								</p>
 							</div>
 							<div class="feedback-info">
-								<h5 class="title">David Cameron</h5>
-								<span>CEO-Osan Group</span>
+								<h5 class="title">Luke Greaves</h5>
+								<span>Yorktown, NY</span>
 							</div>
 						</div>
 						<div class="feedback-img">
-							<img src="assets/images/feedback-4.png" class="" alt="Image" />
+							<img src="assets/images/residential4.jpg" width="230px" class="" alt="Image" />
 						</div>
 					</div>
 				</div>
@@ -665,63 +404,16 @@
 							<div class="feedback-content">
 								<i class="flaticon-left-quote"></i>
 								<p>
-									Morning make creepeth of stars without
-									heaven doesn. Rule one wing one the
-									great can divided shall dominion seasons
-									you an moveth seasons deep
+									<b style="color:#003280;white-space: nowrap;">City & Suburban</b> are my go to plumbing and heating company! Fixed and replaced my water heater this past winter in one day.
 								</p>
 							</div>
 							<div class="feedback-info">
-								<h5 class="title">David Cameron</h5>
-								<span>CEO-Osan Group</span>
+								<h5 class="title">Mary Anne</h5>
+								<span>Brooklyn, NY</span>
 							</div>
 						</div>
 						<div class="feedback-img">
-							<img src="assets/images/feedback-5.png" class="" alt="Image" />
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="feedback-item gray-bg">
-						<div class="feedback-content-wrap">
-							<div class="feedback-content">
-								<i class="flaticon-left-quote"></i>
-								<p>
-									Morning make creepeth of stars without
-									heaven doesn. Rule one wing one the
-									great can divided shall dominion seasons
-									you an moveth seasons deep
-								</p>
-							</div>
-							<div class="feedback-info">
-								<h5 class="title">David Cameron</h5>
-								<span>CEO-Osan Group</span>
-							</div>
-						</div>
-						<div class="feedback-img">
-							<img src="assets/images/feedback-4.png" class="" alt="Image" />
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="feedback-item gray-bg">
-						<div class="feedback-content-wrap">
-							<div class="feedback-content">
-								<i class="flaticon-left-quote"></i>
-								<p>
-									Morning make creepeth of stars without
-									heaven doesn. Rule one wing one the
-									great can divided shall dominion seasons
-									you an moveth seasons deep
-								</p>
-							</div>
-							<div class="feedback-info">
-								<h5 class="title">David Cameron</h5>
-								<span>CEO-Osan Group</span>
-							</div>
-						</div>
-						<div class="feedback-img">
-							<img src="assets/images/feedback-5.png" class="" alt="Image" />
+							<img src="assets/images/water-heater.jpg" width="190px" class="" alt="Image" />
 						</div>
 					</div>
 				</div>
@@ -729,87 +421,142 @@
 		</div>
 	</section>
 	<!--====== FEEDBACK PART ENDS ======-->
-	<!--====== BLOG PART START ======-->
-	<section class="blog-area pt-130 pb-130">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6 col-md-8">
-					<div class="section-title text-center">
-						<img src="assets/images/item.png" alt="" />
-						<h2 class="title">
-							Sample work examples
-						</h2>
-						<span>Special Feature</span>
+		<!--====== COUNTER PART START ======-->
+		<section class="counter-area pt-60 bg_cover">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mt-30">
+							<i class="far fa-tint"></i>
+							<h3 class="title counter">20</h3>
+							<span>+ Years Experience</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mt-30">
+							<i class="far fa-file-certificate"></i>
+							<h3 class="title counter">100</h3>
+							<span>% Safety Compliant</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mt-30">
+							<i class="far fa-house-flood"></i>
+							<h3 class="title counter">800</h3>
+							<span>+ Homes Serviced</span>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="counter-item text-center mt-30">
+							<i class="far fa-car-building"></i>
+							<h3 class="title counter">80,000</h3>
+							<span>+ Miles Traveled</span>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-center">
-				<div class="col-lg-4 col-md-6">
-					<div class="blog-item blog-item-two mt-30">
-						<div class="blog-thumb">
-							<img src="assets/images/blog-4.jpg" alt="" />
-							<a href="#" class="blog-cat">Commercial</a>
-						</div>
-						<div class="blog-content">
-							<span> <span>Admin</span> / Oct 07 , 2019</span>
-							<h4 class="title">
-								Multiply gathered all lights fruit the
-								winged star.
-							</h4>
-							<p>
-								Fourth. Stars second places after doesn unto
-								rule creepeth great blessed one was Make
-								there air days signs so days.
-							</p>
-							<a href="#">Read More <i class="flaticon-add"></i></a>
+		</section>
+		<!--====== COUNTER PART ENDS ======-->
+		<!--====== FAQ PART START ======-->
+		<section class="faq-area pt-100 pb-60">
+			<div class="container">
+				<div class="row justify-content-lg-end justify-content-center">
+					<div class="col-lg-12 col-md-12">
+						<div class="faq-wrap">
+							<div class="faq-title">
+								<span>Have a Question?</span>
+								<h2 class="title">
+									Frequently Asked Questions
+								</h2>
+							</div>
+							<div class="faq-accordion accordion" id="faqAccordion">
+								<div class="card">
+									<div class="card-header">
+										<button type="button" data-toggle="collapse" data-target="#faqOne">
+											What can I put down my garbage disposal?
+											<span class="open-icon"><i class="fal fa-plus"></i></span>
+											<span class="close-icon"><i class="fal fa-minus"></i></span>
+										</button>
+									</div>
+									<div id="faqOne" class="collapse" data-parent="#faqAccordion">
+										<div class="card-body">
+											Your garbage disposal can only tolerate soft edible materials. Often blockages occur as a result of bones and other harder materials that are not digestible.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<button type="button" class="active-accordion" data-toggle="collapse"
+											data-target="#faqTwo">
+											Why is my faucet leaking?
+											<span class="open-icon"><i class="fal fa-plus"></i></span>
+											<span class="close-icon"><i class="fal fa-minus"></i></span>
+										</button>
+									</div>
+									<div id="faqTwo" class="collapse show" data-parent="#faqAccordion">
+										<div class="card-body">
+											The most common reason for a leaking faucet is from corroding o-rings or valve seats. If one of these components is corroded, the faucet can't hold the water when it is closed, therefore, resulting in a leaking and dripping faucet.<br><br>
+	
+											To fix a leaking faucet, shut off the water and remove the faucet. Check for any visible corrosion around the sorrounding components of the faucet, you can find replacements at your local hardware store. If there is no sign of corrosion, check for any loose screws - tightening anything loose may be enough to temporarily stop the leak. If these steps fails, give us a call!
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<button type="button" data-toggle="collapse" data-target="#faqThree">
+											Why is my water heater leaking?
+											<span class="open-icon"><i class="fal fa-plus"></i></span>
+											<span class="close-icon"><i class="fal fa-minus"></i></span>
+										</button>
+									</div>
+									<div id="faqThree" class="collapse" data-parent="#faqAccordion">
+										<div class="card-body">
+											If there is water dripping from the bottom of the water heater, it is usually a sign of a crack in the tank which requires a water heater tank replacement.
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<button type="button" data-toggle="collapse" data-target="#faqFour">
+											My water does not stay hot for as long as it used to - Is my water heater broken? 
+											<span class="open-icon"><i class="fal fa-plus"></i></span>
+											<span class="close-icon"><i class="fal fa-minus"></i></span>
+										</button>
+									</div>
+									<div id="faqFour" class="collapse" data-parent="#faqAccordion">
+										<div class="card-body">
+											A lack of hot water does not usually require a full water heater replacement, however, you may needs to replace some smaller components.<br><br>
+	
+											If you have an electric water heater, the heating elements or thermostat may have expired and need replacing. In the case of both electric and gas water hearts, a lack of hot water could be cue to the dip tube that has detached and deposited itself into the tank, allowing cold water to be mixed with hot water which does not allow for the water to heat up to the desired temperature.
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="blog-item blog-item-two mt-30">
-						<div class="blog-thumb">
-							<img src="assets/images/blog-5.jpg" alt="" />
-							<a href="#" class="blog-cat">Office cleaning</a>
-						</div>
-						<div class="blog-content">
-							<span> <span>Admin</span> / Oct 07 , 2019</span>
-							<h4 class="title">
-								Have saying created own dry lesser divided
-							</h4>
-							<p>
-								Fourth. Stars second places after doesn unto
-								rule creepeth great blessed one was Make
-								there air days signs so days.
-							</p>
-							<a href="#">Read More <i class="flaticon-add"></i></a>
-						</div>
+			</div>
+		</section>
+		<!--====== FAQ PART END ======-->
+	<!--====== CTA PART START ======-->
+	<section class="cta-section">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-8">
+					<div class="cta-text">
+						<h2>Call us for an Estimate</h2>
+						<p>(914) 663-7777</p>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-7">
-					<div class="blog-item blog-item-two mt-30">
-						<div class="blog-thumb">
-							<img src="assets/images/blog-6.jpg" alt="" />
-							<a href="#" class="blog-cat">Residential</a>
-						</div>
-						<div class="blog-content">
-							<span> <span>Admin</span> / Oct 07 , 2019</span>
-							<h4 class="title">
-								Image upon sen day move now saying in
-								wherein
-							</h4>
-							<p>
-								Fourth. Stars second places after doesn unto
-								rule creepeth great blessed one was Make
-								there air days signs so days.
-							</p>
-							<a href="#">Read More <i class="flaticon-add"></i></a>
-						</div>
+				<div class="col-lg-4">
+					<div class="cta-links text-right">
+						<a href="#" class="main-btn main-btn-3">Get Free Estimate</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!--====== BLOG PART ENDS ======-->
+	<!--====== CTA PART END ======-->
 	<!--====== FOOTER PART START ======-->
 	<footer class="footer-two">
 		<div class="footer-top-area pt-100 pb-70">
@@ -863,97 +610,89 @@
 			<div class="footer-widgets">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-3 col-md-6">
+						<div class="col-lg-4 col-md-6">
 							<div class="widget footer-about-widget">
 								<h4 class="title">About Us</h4>
 								<p>
-									Sea, male stars darkn hess teno to deun
-									dantly fifth face created aire one you
-									are fly place for lesser firmament
-									canbearin bathering think faces do
-									perter common gender on cheap more
+									City & Suburban. We are plumbing and heating professionals with expertise in commercial and residential plumbing, heating, and sewer services, serving Westchester County and the Greater New York City Metropolitan Area for over twenty years.
 								</p>
-								<span><span>Emergency :</span> 003-256 256
-									6532</span>
+								<span><span>Call Us:</span> (914) 663-7777</span>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="widget footer-menu-widget">
-								<h4 class="title">Best Services</h4>
+								<h4 class="title">Quick Links</h4>
 								<ul>
 									<li>
-										<a href="#"><i class="far fa-angle-right"></i>
-											some service</a>
+										<a href="/services.html"><i class="far fa-angle-right"></i>
+											All Services</a>
+									</li>
+									<li>
+										<a href="/residential.html"><i class="far fa-angle-right"></i>
+											Residential Services</a>
+									</li>
+									<li>
+										<a href="/commercial.html"><i class="far fa-angle-right"></i>
+											Commercial Services</a>
+									</li>
+									<li>
+										<a href="/about.html"><i class="far fa-angle-right"></i>
+											About </a>
+									</li>
+									<li>
+										<a href="/contact.html"><i class="far fa-angle-right"></i>
+											Contact</a>
 									</li>
 									<li>
 										<a href="#"><i class="far fa-angle-right"></i>
-											some service</a>
-									</li>
-									<li>
-										<a href="#"><i class="far fa-angle-right"></i>
-											some service</a>
-									</li>
-									<li>
-										<a href="#"><i class="far fa-angle-right"></i>
-											some service</a>
-									</li>
-									<li>
-										<a href="#"><i class="far fa-angle-right"></i>
-											some service</a>
+											Site Map</a>
 									</li>
 								</ul>
 							</div>
 						</div>
-						<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="col-lg-4 col-md-6 col-sm-6">
 							<div class="widget footer-contact-info">
 								<h4 class="title">Contact Info</h4>
-								<p>
-									Morningview Lane Artland Latimer, NA
-									5045 / 23654
-								</p>
 								<ul>
-									<li>
-										<i class="far fa-phone"></i> 0023 -
-										25 365 2654
+									<li style="line-height: normal;padding-bottom: 20px;">
+										 Call us for emergency services or send us an email with what service you need and we'll get back to you:
 									</li>
 									<li>
-										<i class="far fa-envelope-open"></i>
-										webtend@gmail.com
+										<i class="fa fa-phone"></i>
+										 (914) 663-7777
 									</li>
 									<li>
-										<i class="far fa-globe"></i>
-										ariclawyerfirm.com
+										<i class="fa fa-envelope"></i>
+										contact@cityandsuburanbph.com
 									</li>
 								</ul>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6">
-							<div class="widget footer-newsletters-widget">
-								<h4 class="title">Newsletters</h4>
-								<p>
-									Male living him morning dry fowe image
-									sea replenish.
-								</p>
-								<form action="#">
-									<div class="input-box">
-										<input type="email" placeholder="Enter your email" />
-										<button class="main-btn main-btn-2" type="button">
-											Subscribe Now
-										</button>
-									</div>
-								</form>
 							</div>
 						</div>
 					</div>
+
+					<!--
+					<div>Icons made by <a href="https://www.flaticon.com/authors/eucalyp" title="Eucalyp">Eucalyp</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/prettycons" title="prettycons">prettycons</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/pause08" title="Pause08">Pause08</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/monkik" title="monkik">monkik</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware">Good Ware</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					<div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+					-->
 				</div>
 			</div>
+			
 		</div>
 		<div class="footer-copyright-area">
 			<div class="container">
 				<div class="row align-items-center">
 					<div class="col-lg-3 col-md-6 order-1 order-lg-1">
 						<div class="footer-logo">
-							<img src="/logo-sample.svg" alt="Queak" />
+							<img src="./logos/citysub_ph_logo_horizontal.svg" alt="Queak" />
 						</div>
 					</div>
 					<div class="col-lg-6 order-3  order-lg-2">
@@ -968,12 +707,6 @@
 									<a href="#"><i class="fab fa-facebook-f"></i></a>
 								</li>
 								<li>
-									<a href="#"><i class="fab fa-twitter"></i></a>
-								</li>
-								<li>
-									<a href="#"><i class="fab fa-instagram"></i></a>
-								</li>
-								<li>
 									<a href="#"><i class="fab fa-google"></i></a>
 								</li>
 							</ul>
@@ -982,6 +715,7 @@
 				</div>
 			</div>
 		</div>
+		
 	</footer>
 	<!--====== FOOTER PART ENDS ======-->
 	<!--====== GO TO TOP PART START ======-->
@@ -1018,8 +752,9 @@
 	<script src="assets/js/jquery.appear.min.js"></script>
 	<!--====== waypoints js ======-->
 	<script src="assets/js/waypoints.min.js"></script>
-	<!--====== Ajax Contact js ======-->
+	<!--====== Ajax Contact js 
 	<script src="assets/js/ajax-contact.js"></script>
+	======-->
 	<!--====== Main js ======-->
 	<script src="assets/js/main.js"></script>
 </body>

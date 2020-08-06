@@ -16,6 +16,9 @@
 /*===========================
     1. COMMON css 
 ===========================*/
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Poppins:400,500,500i,600i,700,700i|Rubik&display=swap");
 body {
   font-family: "Heebo", sans-serif;
@@ -1040,7 +1043,7 @@ header .header-social ul li a:hover {
   height: 100%;
   background-size: contain;
   background-position: center;
-  background-image: url(../images/shape/banner-shape.jpg);
+  background-image: url(../images/shape/home-shape);
   background-repeat: no-repeat;
   z-index: -1;
 }
@@ -5873,4 +5876,5 @@ footer.footer-two .footer-copyright-area .footer-social li a:hover::before {
     transform: scale(2);
   }
 }
+
 /*# sourceMappingURL=style.css.map */

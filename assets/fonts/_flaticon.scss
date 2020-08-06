@@ -1,0 +1,96 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 07/07/2020 22:30
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-drain:before { content: "\f100"; }
+.flaticon-pipe:before { content: "\f101"; }
+.flaticon-water:before { content: "\f102"; }
+.flaticon-sewer:before { content: "\f103"; }
+.flaticon-sewer-1:before { content: "\f104"; }
+.flaticon-plumbing:before { content: "\f105"; }
+.flaticon-pipes:before { content: "\f106"; }
+.flaticon-plumber:before { content: "\f107"; }
+.flaticon-plumbing-1:before { content: "\f108"; }
+.flaticon-plumbing-2:before { content: "\f109"; }
+.flaticon-plumbing-3:before { content: "\f10a"; }
+.flaticon-plumbing-4:before { content: "\f10b"; }
+.flaticon-plumbing-5:before { content: "\f10c"; }
+.flaticon-heater:before { content: "\f10d"; }
+.flaticon-pipe-1:before { content: "\f10e"; }
+.flaticon-plumber-1:before { content: "\f10f"; }
+.flaticon-plumber-2:before { content: "\f110"; }
+.flaticon-plumb:before { content: "\f111"; }
+.flaticon-plumbing-6:before { content: "\f112"; }
+.flaticon-plumb-1:before { content: "\f113"; }
+.flaticon-plumber-3:before { content: "\f114"; }
+.flaticon-plunger:before { content: "\f115"; }
+.flaticon-plumber-4:before { content: "\f116"; }
+.flaticon-pipe-2:before { content: "\f117"; }
+.flaticon-plunger-1:before { content: "\f118"; }
+.flaticon-plumber-5:before { content: "\f119"; }
+.flaticon-pipe-3:before { content: "\f11a"; }
+.flaticon-heat:before { content: "\f11b"; }
+    
+    $font-Flaticon-drain: "\f100";
+    $font-Flaticon-pipe: "\f101";
+    $font-Flaticon-water: "\f102";
+    $font-Flaticon-sewer: "\f103";
+    $font-Flaticon-sewer-1: "\f104";
+    $font-Flaticon-plumbing: "\f105";
+    $font-Flaticon-pipes: "\f106";
+    $font-Flaticon-plumber: "\f107";
+    $font-Flaticon-plumbing-1: "\f108";
+    $font-Flaticon-plumbing-2: "\f109";
+    $font-Flaticon-plumbing-3: "\f10a";
+    $font-Flaticon-plumbing-4: "\f10b";
+    $font-Flaticon-plumbing-5: "\f10c";
+    $font-Flaticon-heater: "\f10d";
+    $font-Flaticon-pipe-1: "\f10e";
+    $font-Flaticon-plumber-1: "\f10f";
+    $font-Flaticon-plumber-2: "\f110";
+    $font-Flaticon-plumb: "\f111";
+    $font-Flaticon-plumbing-6: "\f112";
+    $font-Flaticon-plumb-1: "\f113";
+    $font-Flaticon-plumber-3: "\f114";
+    $font-Flaticon-plunger: "\f115";
+    $font-Flaticon-plumber-4: "\f116";
+    $font-Flaticon-pipe-2: "\f117";
+    $font-Flaticon-plunger-1: "\f118";
+    $font-Flaticon-plumber-5: "\f119";
+    $font-Flaticon-pipe-3: "\f11a";
+    $font-Flaticon-heat: "\f11b";

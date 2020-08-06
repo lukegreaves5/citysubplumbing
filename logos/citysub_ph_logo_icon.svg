@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="368.23mm" height="155.88mm" version="1.1" viewBox="0 0 368.23 155.88" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-49.296 64.004)">
+  <g fill="#e6e6e6">
+   <rect x="203.62" y="-29.423" width="15.157" height="78.371" style="paint-order:fill markers stroke"/>
+   <rect x="337.38" y="9.8836" width="19.475" height="37.174" style="paint-order:fill markers stroke"/>
+   <rect x="378.47" y="38.973" width="19.916" height="43.603" style="paint-order:fill markers stroke"/>
+   <rect x="370.95" y="21.467" width="14.492" height="58.787" style="paint-order:fill markers stroke"/>
+   <rect x="360.22" y="2.6734" width="17.139" height="77.731" style="paint-order:fill markers stroke"/>
+   <rect x="328.25" y="18.36" width="26.156" height="42.096" style="paint-order:fill markers stroke"/>
+   <rect x="66.722" y="46.627" width="14.167" height="36.537" style="paint-order:fill markers stroke"/>
+   <rect x="291.13" y="-11.541" width="6.6427" height="49.667" style="paint-order:fill markers stroke"/>
+   <rect x="301.82" y="-15.458" width="28.457" height="50.148" style="paint-order:fill markers stroke"/>
+   <rect x="280.79" y="-11.636" width="18.213" height="52.111" style="paint-order:fill markers stroke"/>
+   <path d="m269.67-40.602-16.888 0.34344v67.659h33.778v-67.659z" style="paint-order:fill markers stroke"/>
+   <rect x="113.6" y="20.98" width="22.078" height="46.871" style="paint-order:fill markers stroke"/>
+   <rect x="187.51" y="-14.353" width="13.27" height="68.051" style="paint-order:fill markers stroke"/>
+   <rect x="184.33" y="-19.91" width="21.843" height="78.371" style="paint-order:fill markers stroke"/>
+   <path d="m153.9-49.393-5.3721 0.33488v65.971h10.745v-64.705h7.9e-4v-1.2662h-7.9e-4z" style="paint-order:fill markers stroke"/>
+   <rect x="140.97" y="-32.095" width="26.147" height="71.006" style="paint-order:fill markers stroke"/>
+   <rect x="136.11" y="-24.628" width="36.657" height="69.511" style="paint-order:fill markers stroke"/>
+   <rect x="133.03" y="-14.601" width="42.635" height="65.971" style="paint-order:fill markers stroke"/>
+   <rect x="89.666" y="1.5109" width="19.919" height="78.743" style="paint-order:fill markers stroke"/>
+   <rect x="79.147" y="21.052" width="14.879" height="59.201" style="paint-order:fill markers stroke"/>
+  </g>
+  <g>
+   <path d="m222.76-21.32 138.52 65.953v35.771h-138.52z" fill="#e80000" stroke-linejoin="round" stroke-width="1.5929" style="paint-order:fill markers stroke"/>
+   <path d="m232.97-26.815-129.12 69.516v37.703h129.12z" fill="#d90000" stroke-linejoin="round" stroke-width="1.5789" style="paint-order:fill markers stroke"/>
+   <path d="m233.04-27.326-151.85 81.869 16.137 3.823v22.037h12.257v-28.645l123.3-66.477 121.52 65.518v29.366h12.257v-22.757l18.246-2.6851z" fill="#003380" style="paint-order:fill markers stroke"/>
+  </g>
+  <g fill="#e6e6e6">
+   <g>
+    <path d="m153.9-63.963-1.4652 0.33488v65.971h2.9305v-64.705h2e-4v-1.2662h-2e-4z" style="paint-order:fill markers stroke"/>
+    <path d="m269.83-45.143-16.725 0.0175v3.4658h33.452v-3.4658z" style="paint-order:fill markers stroke"/>
+    <path d="m269.8-64.004-1.5159 0.10087v19.847h3.0322v-19.466h1.6e-4v-0.38094h-1.6e-4z" style="paint-order:fill markers stroke"/>
+   </g>
+   <path d="m301.68-14.793 15.042-8.7232 13.559 8.7232h-28.601"/>
+  </g>
+  <path d="m233.06 67.946-0.22146-0.48234-183.54 15.659 183.55 8.2384 184.68-8.2384-164.02-14.276-20.482-1.2345 0.0737 2.0238z" fill="#003380"/>
+  <g fill="#fff">
+   <path d="m49.296 83.122 183.8-15.247 184.43 15.247-184.35-17.423z"/>
+   <path d="m109.59 73.872v-22.114l2.5683 1.6762z"/>
+   <path d="m109.59 51.759 2.5683 1.6762 120.73-68.153z"/>
+   <path d="m354.4 73.76-3e-5 -22.96-2.5683 1.6762z"/>
+  </g>
+  <path d="m81.192 54.544v10.006l5.2312-0.303z" fill="none"/>
+  <path d="m354.4 50.824-2.5313 1.6526-118.99-67.195z" fill="#fff"/>
+  <g>
+   <path d="m97.328 58.367h-16.137v-3.8229z" fill="#003380"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z" fill="#003380"/>
+   <path d="m49.296 83.122h368.23l-184.68 8.7546z" fill="#e6e6e6"/>
+  </g>
+  <g fill="#fff">
+   <path d="m366.66 73.706 2.0058-14.435-2.0058-1.8623z"/>
+   <path d="m366.66 57.408h18.122l-16.116 1.8623z"/>
+   <path d="m97.328 74.665-2.0058-14.435 2.0058-1.8623z"/>
+   <path d="m97.328 58.367h-16.137l14.351 1.8623z"/>
+  </g>
+  <g fill="#003380">
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+   <path d="m366.66 57.408h18.261l-0.0145-2.6851z"/>
+  </g>
+  <g fill="#fff">
+   <path d="m354.4 73.76-3e-5 -22.96-2.5683 1.6762z"/>
+   <path d="m354.4 73.76-3e-5 -22.96-2.5683 1.6762z"/>
+   <path d="m354.4 73.76-3e-5 -22.96-2.5683 1.6762z"/>
+   <path d="m354.4 73.76-3e-5 -22.96-2.5683 1.6762z"/>
+   <path d="m354.4 73.76-3e-5 -22.96-2.5683 1.6762z"/>
+   <path d="m354.4 73.76-3e-5 -22.96-2.5683 1.6762z"/>
+   <path d="m354.4 73.76-3e-5 -22.96-2.5683 1.6762z"/>
+   <path d="m109.59 73.872v-22.114l2.5683 1.6762z"/>
+   <path d="m109.59 73.872v-22.114l2.5683 1.6762z"/>
+   <path d="m109.59 73.872v-22.114l2.5683 1.6762z"/>
+   <path d="m109.59 73.872v-22.114l2.5683 1.6762z"/>
+   <path d="m109.59 73.872v-22.114l2.5683 1.6762z"/>
+  </g>
+  <g fill="#003380">
+   <path d="m97.328 58.367h-16.137v-3.8229z"/>
+   <path d="m97.328 58.367h-16.137v-3.8229z"/>
+   <path d="m97.328 58.367h-16.137v-3.8229z"/>
+   <path d="m97.328 58.367h-16.137v-3.8229z"/>
+  </g>
+ </g>
+</svg>

@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 30/06/2019 22:29
+  	Creation date: 29/06/2020 12:23
   	*/
 
 @font-face {
@@ -24,35 +24,37 @@
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
-    font-family: Flaticon;
-    font-style: normal;
+  font-family: Flaticon;
+        font-size: 60px;
+font-style: normal;
+margin-left: 20px;
 }
 
-
-.flaticon-e-mail-envelope:before { content: "\f100"; }
-.flaticon-phone-call:before { content: "\f101"; }
-.flaticon-tag:before { content: "\f102"; }
-.flaticon-thumb-up:before { content: "\f103"; }
-.flaticon-add:before { content: "\f104"; }
-.flaticon-maid:before { content: "\f105"; }
-.flaticon-avatar:before { content: "\f106"; }
-.flaticon-glass-cleaner:before { content: "\f107"; }
-.flaticon-medal:before { content: "\f108"; }
-.flaticon-play-button-arrowhead:before { content: "\f109"; }
-.flaticon-right-arrow:before { content: "\f10a"; }
-.flaticon-left-arrow:before { content: "\f10b"; }
-.flaticon-left-quote:before { content: "\f10c"; }
-.flaticon-call-answer:before { content: "\f10d"; }
-.flaticon-email:before { content: "\f10e"; }
-.flaticon-globalization:before { content: "\f10f"; }
-.flaticon-right-arrow-angle:before { content: "\f110"; }
-.flaticon-property:before { content: "\f111"; }
-.flaticon-kitchen:before { content: "\f112"; }
-.flaticon-window:before { content: "\f113"; }
-.flaticon-restroom:before { content: "\f114"; }
-.flaticon-desk:before { content: "\f115"; }
-.flaticon-furniture-and-household:before { content: "\f116"; }
-.flaticon-faucet:before { content: "\f117"; }
-.flaticon-duster:before { content: "\f118"; }
-
-.flaticon-drain:before { content: "\f111"; }
+.flaticon-drain:before { content: "\f100"; }
+.flaticon-pipe:before { content: "\f101"; }
+.flaticon-water:before { content: "\f102"; }
+.flaticon-sewer:before { content: "\f103"; }
+.flaticon-sewer-1:before { content: "\f104"; }
+.flaticon-plumbing:before { content: "\f105"; }
+.flaticon-pipes:before { content: "\f106"; }
+.flaticon-plumber:before { content: "\f107"; }
+.flaticon-plumbing-1:before { content: "\f108"; }
+.flaticon-plumbing-2:before { content: "\f109"; }
+.flaticon-plumbing-3:before { content: "\f10a"; }
+.flaticon-plumbing-4:before { content: "\f10b"; }
+.flaticon-plumbing-5:before { content: "\f10c"; }
+.flaticon-heater:before { content: "\f10d"; }
+.flaticon-pipe-1:before { content: "\f10e"; }
+.flaticon-plumber-1:before { content: "\f10f"; }
+.flaticon-plumber-2:before { content: "\f110"; }
+.flaticon-plumb:before { content: "\f111"; }
+.flaticon-plumbing-6:before { content: "\f112"; }
+.flaticon-plumb-1:before { content: "\f113"; }
+.flaticon-plumber-3:before { content: "\f114"; }
+.flaticon-plunger:before { content: "\f115"; }
+.flaticon-plumber-4:before { content: "\f116"; }
+.flaticon-pipe-2:before { content: "\f117"; }
+.flaticon-plunger-1:before { content: "\f118"; }
+.flaticon-plumber-5:before { content: "\f119"; }
+.flaticon-pipe-3:before { content: "\f11a"; }
+.flaticon-heat:before { content: "\f11b"; }
